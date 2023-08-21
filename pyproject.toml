@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "triton-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Vik Paruchuri <vik.paruchuri@gmail.com>"]
+readme = "README.md"
+packages = [{include = "triton_tutorial"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
